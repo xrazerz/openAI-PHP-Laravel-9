@@ -1,0 +1,9 @@
+[2023-12-31 00:23:33] local.ERROR: Command "require" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"require\" is not defined. at C:\\laragon\\www\\Laravel Revision\\openai_app\\vendor\\symfony\\console\\Application.php:737)
+[stacktrace]
+#0 C:\\laragon\\www\\Laravel Revision\\openai_app\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('require')
+#1 C:\\laragon\\www\\Laravel Revision\\openai_app\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 C:\\laragon\\www\\Laravel Revision\\openai_app\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\laragon\\www\\Laravel Revision\\openai_app\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\laragon\\www\\Laravel Revision\\openai_app\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
